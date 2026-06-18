@@ -17,7 +17,10 @@ Pre-Title Events: Shows a specific map before the title screen, optionally start
 
 ## Plugin Commands
 
-- `RemoveOverlay`
+### Remove Overlay
+
+- Command: `RemoveOverlay`
+- Description: Removes the black overlay, revealing the map underneath.
 
 ## Parameter Summary
 
@@ -25,7 +28,7 @@ Pre-Title Events: Shows a specific map before the title screen, optionally start
 - useAsTitleFlag: Replaces the title screen with this map. If true, this map is shown instead of the title screen by default.
 - preTitlePlayerX: The player's starting X coordinate on the pre-title map.
 - preTitlePlayerY: The player's starting Y coordinate on the pre-title map.
-- startFadedOut: If true, start with a black overlay covering the screen. If false, start fully visible (no overlay).
+- startFadedOut: Removes the black overlay, revealing the map underneath.
 
 ## Installation
 
